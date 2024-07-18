@@ -10,6 +10,12 @@ body {
   justify-content: space-between;
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    
+}
+
 .header {
     height: 50px;
     background-color: #1F2937;
@@ -17,7 +23,7 @@ body {
 }
 
 .info {
-    height: 50px;
+    height: 100px;
     background-color: white;
 }
 
@@ -44,9 +50,52 @@ body {
 }
 
 .signup {
-    height: 50px;
+    height: 200px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.signupcard {
+    background-color: #3882F6;
+    color: white;
+
+    padding: 40px;
+    border-radius: 5px;
+    width: 75vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+    
+
+}
+
+.signupleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupcard .signuptitle {
+    font-weight: bold;
+    font-size: large;
+}
+
+.signupcard .signuptext {
+    color: #E5E7EB;
+}
+
+#signup {
+    border: 2px solid white;
+    border-radius: 5px;
+    flex-shrink: 0;
+    padding: 5px 20px;
+}
+
+
 
 .footer {
     height: 50px;
