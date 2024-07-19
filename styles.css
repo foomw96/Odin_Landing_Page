@@ -23,8 +23,38 @@ button {
 }
 
 .info {
-    height: 100px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.infotitle {
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.infopics {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.infopic {
+    text-align: center;
+    min-width: 100px;
+}
+
+.infopic .text {
+    font-size: xx-small;
+}
+
+.infopic img {
+    width: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
 }
 
 .quote {
