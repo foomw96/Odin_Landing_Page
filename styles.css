@@ -13,13 +13,77 @@ body {
 button {
     background-color: #3882F6;
     color: white;
-    
+    border-radius: 5px;
+    flex-shrink: 0;
+    padding: 5px 20px;
 }
 
 .header {
-    height: 50px;
     background-color: #1F2937;
     color:  #E5E7EB;
+    padding: 10px 100px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.headerbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.headerbody .left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.headerbody .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.headerbody .body {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+button#header {
+    border: 0px;
+}
+
+.header img {
+    max-width: 300px;
 }
 
 .info {
@@ -27,7 +91,9 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
+    gap: 25px;
+
+    padding: 50px;
 }
 
 .infotitle {
@@ -39,7 +105,8 @@ button {
 .infopics {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
 }
 
 .infopic {
@@ -49,6 +116,7 @@ button {
 
 .infopic .text {
     font-size: xx-small;
+    width: 100px;
 }
 
 .infopic img {
@@ -68,23 +136,24 @@ button {
 }
 
 .quotetext {
-    font-size: 26px;
+    font-size: 16px;
     font-style: italic;
     font-weight: lighter;
 }
 
 .quoteauthor {
-    font-size: 28px;
+    font-size: 12px;
     font-weight: bold;
     align-self: flex-end;
 }
 
 .signup {
-    height: 200px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 50px 0;
 }
 
 .signupcard {
@@ -93,15 +162,12 @@ button {
 
     padding: 40px;
     border-radius: 5px;
-    width: 75vw;
+    width: 60vw;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-
-    
-
 }
 
 .signupleft {
@@ -118,17 +184,13 @@ button {
     color: #E5E7EB;
 }
 
-#signup {
+button#signup {
     border: 2px solid white;
-    border-radius: 5px;
-    flex-shrink: 0;
-    padding: 5px 20px;
 }
-
-
 
 .footer {
     height: 50px;
+    padding: 10px;
     background-color: #1F2937;
     color:  #E5E7EB;
     font-size: 8px;
@@ -137,4 +199,5 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
